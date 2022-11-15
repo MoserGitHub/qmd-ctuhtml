@@ -1,7 +1,7 @@
 ---
 title: "CTU Bern html reporting template"
-subtitle: "Reporting template"
-description: "Text Text Text Text Text Text Text Text"
+subtitle: "Subtitle"
+description: "Description"
 author: "André Muster"
 date: today
 format:
@@ -9,8 +9,23 @@ format:
     toc-location: left
     embed-resources: true
     fontcolor: black
-css: ctu_styles.css
+title-block-banner: "#FFFFFF"
+title-block-banner-color: black
 ---
+
+<style>
+
+.quarto-title-block .quarto-title-banner {
+  background-image: url(_extensions/MoserGitHub/qmd-ctuhtml/ub_Logo_english_2019_RGB_wb.png);
+  background-size: 300px;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+  background-origin: content-box;
+}
+
+</style>
+
 
 ## Background
 
