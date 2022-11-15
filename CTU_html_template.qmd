@@ -17,7 +17,7 @@ bibliography: references.bib
 <style>
 
 .quarto-title-block .quarto-title-banner {
-  background-image: url(_extensions/MoserGitHub/qmd-ctuhtml/ub_Logo_english_2019_RGB_wb.png);
+  background-image: url(ub_Logo_english_2019_RGB_wb.png);
   background-size: 300px;
   background-position: right;
   background-repeat: no-repeat;
