@@ -54,7 +54,7 @@ Quartones provides first evidence in @ref1. A general overview is provided in @r
 
 Insert here study population. Most likely a flowchart is necessary for describing eligibility of patients and for reproducibility.
 
-```{r, results='hide', echo=F, fig.height=8, fig.width=8}
+```{r, results='hide', echo=F, message=F, fig.height=8, fig.width=8}
 library(Gmisc)
 library(grid)
 
@@ -73,7 +73,9 @@ text_box2 <- paste0("Population 2\nN=", N1)
 box2 <- boxGrob(text_box2, x=x_coord1, y=0.1, bjust = "center")
 box2
 
-excluded1 <- boxGrob(paste0("Exclusion (n=", N0-N1, ")"), x = x_coord1+0.27, y = (coords(box2)$top + coords(box1)$bottom)/2, just="left", bjust = "left")
+excluded1 <- boxGrob(paste0("Exclusion (n=", N0-N1, ")"), x = x_coord1+0.27, 
+                     y = (coords(box2)$top + coords(box1)$bottom)/2, 
+                     just="left", bjust = "left")
 excluded1
 
 connectGrob(box1, box2, "vertical")
@@ -88,7 +90,7 @@ Insert here at least the statistical methods.
 
 ### Interactive descriptive tables
 
-```{r, echo=T}
+```{r, echo=T, message=F, fig.height=8, fig.width=8}
 set.seed(1)
 n <- 1000
 
@@ -99,23 +101,33 @@ c <- rpois(n, lambda=1.5)
 data <- data.frame(age=a, num_coffee=b, quarto=c)
 
 library(tidyverse)
-data_agg <- data %>% group_by(quarto) %>% summarise(mean_age=round(mean(age),1), sum_coffee=sum(num_coffee))
+data_agg <- data %>% group_by(quarto) %>% 
+  summarise(mean_age=round(mean(age),1), sum_coffee=sum(num_coffee))
 
 library(DT)
 # Build factors for filtering in datatable()
 data_agg$sum_coffee <- factor(data_agg$sum_coffee)
 data_agg$quarto <- factor(data_agg$quarto)
 
-col_names_table <- c("Intensity of Quarto use", "Mean age", "Sum of coffees")
-datatable(data_agg, colnames=col_names_table, rownames = F, filter = 'top', options = list(pageLength = 20))
+col_names_table <- c("Intensity of Quarto use", 
+                     "Mean age", "Sum of coffees")
+datatable(data_agg, colnames=col_names_table, 
+          rownames = F, filter = 'top', 
+          options = list(pageLength = 20))
 ```
 
 ### Interactive graphs
 
-```{r, echo=T}
+```{r, echo=T, message=F, fig.height=8, fig.width=8}
 library(plotly)
 
 fig <- ggplot(data_agg, aes(x=quarto, y=sum_coffee))+geom_point()+
   ylab("Intensity of Quarto use")+xlab("Sum of coffees")+theme_bw()
 ggplotly(fig)
+```
+
+# Session info
+
+```{r, echo=T, message=F}
+sessionInfo()
 ```
