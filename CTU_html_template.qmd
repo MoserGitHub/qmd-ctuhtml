@@ -6,7 +6,7 @@ author:
   - name: "André Muster"
     orcid: 111
     email: "xxx@ctu.unibe.ch"
-  affiliation: "CTU Bern"
+    affiliation: "CTU Bern"
 date: today
 format:
   html:
