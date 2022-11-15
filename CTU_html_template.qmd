@@ -11,7 +11,7 @@ format:
     fontcolor: black
 title-block-banner: "#FFFFFF"
 title-block-banner-color: black
-bibliography: reference.bib
+bibliography: references.bib
 ---
 
 <style>
@@ -30,9 +30,9 @@ bibliography: reference.bib
 
 ## Background
 
-Background section.
+Quartones provides first evidence in @ref1. A general overview is provided in @ref2.
 
-## Running Code
+## Methods
 
 ```{r}
 1 + 1
