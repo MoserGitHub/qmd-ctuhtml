@@ -1,11 +1,15 @@
 ---
 title: "CTU Bern html reporting template"
 subtitle: "Reporting template"
+description: "Text Text Text Text Text Text Text Text"
 author: "André Muster"
 date: today
-institute: "CTU Bern, University of Bern"
-format: default
-toc: true
+format:
+  html:
+    toc-location: left
+    embed-resources: true
+    fontcolor: black
+css: ctu_styles.css
 ---
 
 ## Background

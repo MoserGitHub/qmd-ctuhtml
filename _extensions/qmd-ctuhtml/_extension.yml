@@ -7,3 +7,4 @@ contributes:
       mainfont: Pangolin
       theme: simplex
       embed-resources: true
+css: ctu_styles.css
