@@ -7,5 +7,3 @@ contributes:
       mainfont: Pangolin
       theme: [default, sketchy.scss]
       css: theme.css
-      footer: |
-              <a href="https://mr.schochastics.net">theme by schochastics</a> 
