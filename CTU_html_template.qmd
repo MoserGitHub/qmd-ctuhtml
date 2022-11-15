@@ -2,7 +2,11 @@
 title: "CTU Bern html reporting template"
 subtitle: "Subtitle"
 description: "Description"
-author: "André Muster"
+author:
+  - name: "André Muster"
+    orcid: 111
+    email: "xxx@ctu.unibe.ch"
+  affiliation: "CTU Bern"
 date: today
 format:
   html:
