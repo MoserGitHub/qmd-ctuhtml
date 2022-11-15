@@ -1,0 +1,19 @@
+---
+title: "CTU Bern html reporting template"
+subtitle: "Reporting template"
+author: "André Muster"
+date: today
+institute: "CTU Bern, University of Bern"
+format: default
+toc: true
+---
+
+## Background
+
+Background section.
+
+## Running Code
+
+```{r}
+1 + 1
+```
