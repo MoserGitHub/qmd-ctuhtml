@@ -6,3 +6,4 @@ contributes:
     html:
       mainfont: Pangolin
       theme: simplex
+      embed-resources: true
