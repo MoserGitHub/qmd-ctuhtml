@@ -5,5 +5,5 @@ contributes:
   formats:
     html:
       mainfont: Pangolin
-      theme: simplex
+      theme: simplex.scss
       css: theme.css
