@@ -21,6 +21,8 @@ bibliography: references.bib
 <!---
 The next lines are required for UniBE logo:
 Do not delete
+
+https://stackoverflow.com/questions/74180779/r-quarto-html-document-how-to-insert-logo-image-at-the-left-of-the-title-su
 -->
 
 <style>
