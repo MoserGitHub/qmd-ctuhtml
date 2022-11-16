@@ -1,8 +1,14 @@
-title: CTU Bern html reporting template
+title: CTU Bern Quarto html reporting template
 author: André Moser
-version: 0.0.1
+version: 0.0.2
 contributes:
   formats:
     html:
-      theme: sketchy
+      theme: unibe.scss
       embed-resources: true
+      css: styles.css
+      title-block-banner: "#FFFFFF"
+      title-block-banner-color: black
+      date: today
+      toc: true
+      toc-location: left

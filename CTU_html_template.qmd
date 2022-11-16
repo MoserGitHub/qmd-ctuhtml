@@ -7,14 +7,7 @@ author:
     orcid: 111
     email: "xxx@ctu.unibe.ch"
     affiliation: "CTU Bern, University of Bern"
-date: today
-format:
-  html:
-    toc-location: left
-    embed-resources: true
-    fontcolor: black
-title-block-banner: "#FFFFFF"
-title-block-banner-color: black
+format: qmd-ctuhtml-html
 bibliography: references.bib
 ---
 
