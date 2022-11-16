@@ -18,6 +18,30 @@ title-block-banner-color: black
 bibliography: references.bib
 ---
 
+<!---
+The next lines are required for UniBE logo:
+Do not delete
+
+https://stackoverflow.com/questions/74180779/r-quarto-html-document-how-to-insert-logo-image-at-the-left-of-the-title-su
+-->
+
+<style>
+
+.quarto-title-block .quarto-title-banner {
+  background-image: url(ub_Logo_english_2019_RGB_wb.png);
+  background-size: 300px;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+  background-origin: content-box;
+}
+
+</style>
+
+<!---
+End
+-->
+
 # Summary
 
 Provide here summary of findings for clinicians and PIs.

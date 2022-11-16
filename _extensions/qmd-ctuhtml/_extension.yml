@@ -4,7 +4,7 @@ version: 0.0.1
 contributes:
   formats:
     html:
-      mainfont: Pangolin
-      theme: simplex
+      theme: unibe.scss
       embed-resources: true
-css: ctu_styles.css
+      footer: "Test"
+      css: styles.css
