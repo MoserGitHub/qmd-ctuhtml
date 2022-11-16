@@ -116,7 +116,7 @@ ggplotly(fig)
 
 ## Version control
 
-This report is based on revision XXX.
+This report is based on SVN version control XX (adress).
 
 ## Session info
 
