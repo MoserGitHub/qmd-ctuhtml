@@ -12,3 +12,4 @@ contributes:
       date: today
       toc: true
       toc-location: left
+      csl: plos-one.csl

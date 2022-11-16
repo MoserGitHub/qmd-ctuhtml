@@ -1,7 +1,7 @@
 ---
 title: "CTU project name"
 subtitle: "CTU project number: XXX"
-description: "SAP or study protocol version"
+description: "Bla bla bla"
 author:
   - name: "Quarto Muster"
     orcid: 111
@@ -13,7 +13,11 @@ bibliography: references.bib
 
 # Summary
 
-Provide here summary of findings for clinicians and PIs.
+Provide here understandable summary of findings for clinicians and PIs.
+
+# SAP and/or study protocol version
+
+This report is based on SAP version XXX and/or study protocol version YYY.
 
 # Background
 
@@ -21,9 +25,11 @@ Quartones provides first evidence in @ref1. A general overview is provided in @r
 
 # Methods
 
+## Methods subsection 1
+
 ## Study population
 
-Insert here study population. Most likely a flowchart is necessary for describing eligibility of patients and for reproducibility.
+Insert here description of study population. Most likely a flowchart is necessary for describing eligibility of patients and for reproducibility.
 
 ```{r, results='hide', echo=F, message=F, fig.height=8, fig.width=8}
 library(Gmisc)
@@ -55,9 +61,11 @@ connectGrob(box1, excluded1, "-")
 
 ## Statistical methods
 
-Insert here at least the statistical methods.
+Describe the methods, ideally in a form that can be used directly in a paper. Statistical software used.
 
 ## Results
+
+### Results subsection 1
 
 ### Interactive descriptive tables
 
@@ -97,7 +105,20 @@ fig <- ggplot(data_agg, aes(x=quarto, y=sum_coffee))+geom_point()+
 ggplotly(fig)
 ```
 
-# Session info
+# Revision history
+
+| Release date| Summary of changes | Reason for change(s) |
+| --- | --- | --- |
+| Nov 2, 2022 | New report 2 | Not applicable |
+| Nov 1, 2022 | New report 1 | Not applicable |
+
+# Reproducibility
+
+## Version control
+
+This report is based on revision XXX.
+
+## Session info
 
 ```{r, echo=T, message=F}
 sessionInfo()
