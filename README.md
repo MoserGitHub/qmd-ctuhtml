@@ -18,7 +18,11 @@ Once installed, you can create a new directory with all necessary files via the 
 quarto use template MoserGitHub/qmd-ctuhtml
 ```
 
-It will ask if you trust the author of the template (hopefully you do...), and then for a directory name. Type the path relative to your current location.
+It will ask if you trust the author of the template (hopefully you do...), and then for a directory name. Type the path relative to your current location, for example
+
+```
+/Clinical studies/HtmlReport_9999
+```
 
 ### Acknowledgements
 
