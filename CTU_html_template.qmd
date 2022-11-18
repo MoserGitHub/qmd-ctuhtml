@@ -1,7 +1,7 @@
 ---
-title: "CTU project name"
-subtitle: "CTU project number: XXX"
-description: "Bla bla bla"
+title: "CTU project name and CTU project number"
+subtitle: "SAP and/or study protocol version"
+description: "bla bla"
 author:
   - name: "Quarto Muster"
     orcid: 111
@@ -11,19 +11,9 @@ format: qmd-ctuhtml-html
 bibliography: references.bib
 ---
 
-# Summary
-
-Provide here understandable summary of findings for clinicians and PIs.
-
-# SAP and/or study protocol version
-
-This report is based on SAP version XXX and/or study protocol version YYY.
-
-# Background
-
-Quartones provides first evidence in @ref1. A general overview is provided in @ref2. References can be used over the bibtex bibliography.
-
 # Methods
+
+This section describes the methods used in the study.Quartones provides first evidence in @ref1. A general overview is provided in @ref2. References can be used over the bibtex bibliography.
 
 ## Methods subsection 1
 
@@ -61,7 +51,7 @@ connectGrob(box1, excluded1, "-")
 
 ## Statistical methods
 
-Describe the methods, ideally in a form that can be used directly in a paper. Statistical software used.
+Describe the methods, ideally in a form that can be used directly in a paper. Report the statistical software(s) used. 
 
 ## Results
 
@@ -113,6 +103,10 @@ ggplotly(fig)
 | Nov 1, 2022 | New report 1 | Not applicable |
 
 # Reproducibility
+
+## Date of data export
+
+This report is based on the data export from RedCap on date XXX.
 
 ## Version control
 
