@@ -13,7 +13,7 @@ bibliography: references.bib
 
 # Methods
 
-This section describes the methods used in the study.Quartones provides first evidence in @ref1. A general overview is provided in @ref2. References can be used over the bibtex bibliography.
+This section describes the methods used in the study. Quartones provides first evidence in @ref1. A general overview is provided in @ref2. References can be used over the bibtex bibliography.
 
 ## Methods subsection 1
 
@@ -104,7 +104,7 @@ ggplotly(fig)
 
 # Reproducibility
 
-## Date of data export
+## Data export
 
 This report is based on the data export from RedCap on date XXX.
 
