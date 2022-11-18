@@ -106,7 +106,7 @@ ggplotly(fig)
 
 ## Data export
 
-This report is based on the data export from RedCap on date XXX.
+This report is based on the file XXX from the RedCap data export on date XXX.
 
 ## Version control
 
