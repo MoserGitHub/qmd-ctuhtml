@@ -126,7 +126,7 @@ This report is based on the file XXX from the RedCap data export on date XXX.
 
 ## Version control
 
-This report is based on SVN version control XX (adress).
+CTU Bern uses the SVN version control system. This report is based on revision XXX.
 
 ## Session info
 
