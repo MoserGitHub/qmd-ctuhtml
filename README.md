@@ -24,6 +24,12 @@ It will ask if you trust the author of the template (hopefully you do...), and t
 /Clinical studies/HtmlReport_9999
 ```
 
+### Reomve extension
+
+```
+quarto remove extension MoserGitHub/qmd-ctuhtml
+```
+
 ### Acknowledgements
 
 - [Alan Haynes](https://github.com/aghaynes) for all previous templates and discussions
