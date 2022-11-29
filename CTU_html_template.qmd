@@ -21,7 +21,13 @@ This section describes the methods used in the study. Quartones provides first e
 
 Insert here description of study population. Most likely a flowchart is necessary for describing eligibility of patients and for reproducibility.
 
-```{r, results='hide', echo=F, message=F, fig.height=8, fig.width=8}
+```{r}
+#| echo: false
+#| results: hide
+#| message: false
+#| fig-height: 8
+#| fig-width: 8
+
 library(Gmisc)
 library(grid)
 
@@ -59,7 +65,12 @@ Describe the methods, ideally in a form that can be used directly in a paper. Re
 
 ### Interactive descriptive tables
 
-```{r, echo=T, message=F, fig.height=8, fig.width=8}
+```{r}
+#| echo: true
+#| message: false
+#| fig-height: 8
+#| fig-width: 8
+
 set.seed(1)
 n <- 1000
 
@@ -87,7 +98,12 @@ datatable(data_agg, colnames=col_names_table,
 
 ### Interactive graphs
 
-```{r, echo=T, message=F, fig.height=8, fig.width=8}
+```{r}
+#| echo: true
+#| message: false
+#| fig-height: 8
+#| fig-width: 8
+
 library(plotly)
 
 fig <- ggplot(data_agg, aes(x=quarto, y=sum_coffee))+geom_point()+
@@ -115,5 +131,8 @@ This report is based on SVN version control XX (adress).
 ## Session info
 
 ```{r, echo=T, message=F}
+#| echo: true
+#| message: false
+
 sessionInfo()
 ```
